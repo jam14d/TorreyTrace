@@ -3,7 +3,15 @@
 This project simulates coastal microclimate conditions near **Torrey Pines**, a scenic stretch of Southern California coastline known for steep cliffs, persistent marine layers, and dynamic tides.
 
 <p align="center">
+<<<<<<< HEAD
   <img src="torreysineswnoise.gif" alt="Animation"><br>
+=======
+<<<<<<< HEAD
+  <img src="trimmed_torreysines.gif" alt="Animation"><br>
+=======
+  <img src="torreysineswnoise.gif" alt="Animation"><br>
+>>>>>>> 1aa51f8 (testing)
+>>>>>>> eaef276 (ah)
   <i>Early-stage visualization: Torrey Sines</i>
 </p>
 
