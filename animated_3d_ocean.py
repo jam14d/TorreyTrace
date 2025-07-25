@@ -80,18 +80,6 @@ def update(frame):
     temp = row["Temperature"]
     timestamp = row["Timestamp"]
 
-
-    # # Adjust wave spacing (less frequent = wider peaks)
-    # Z = tide + wave * np.sin(2 * np.pi * (X - 0.1 * frame) / 4)
-
-    # # Add subtle noise for realism
-    # noise_strength = 0.05 * wave
-    # noise = noise_strength * np.random.normal(size=X.shape)
-    # Z += noise
-
-    # if surf[0] is not None:
-    #     surf[0].remove()
-
     # Adjust wave spacing
     Z = tide + wave * np.sin(2 * np.pi * (X - 0.1 * frame) / 4)
 
