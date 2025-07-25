@@ -80,26 +80,18 @@ def update(frame):
     temp = row["Temperature"]
     timestamp = row["Timestamp"]
 
-<<<<<<< HEAD
-    # Adjust wave spacing
-=======
-<<<<<<< HEAD
-    # Adjust wave spacing (less frequent = wider peaks)
->>>>>>> eaef276 (ah)
-    Z = tide + wave * np.sin(2 * np.pi * (X - 0.1 * frame) / 4)
 
-    # Add subtle noise for realism
-    noise_strength = 0.05 * wave
-    noise = noise_strength * np.random.normal(size=X.shape)
-    Z += noise
+    # # Adjust wave spacing (less frequent = wider peaks)
+    # Z = tide + wave * np.sin(2 * np.pi * (X - 0.1 * frame) / 4)
 
-    if surf[0] is not None:
-        surf[0].remove()
+    # # Add subtle noise for realism
+    # noise_strength = 0.05 * wave
+    # noise = noise_strength * np.random.normal(size=X.shape)
+    # Z += noise
 
-<<<<<<< HEAD
-    # Top wave surface
-=======
-=======
+    # if surf[0] is not None:
+    #     surf[0].remove()
+
     # Adjust wave spacing
     Z = tide + wave * np.sin(2 * np.pi * (X - 0.1 * frame) / 4)
 
@@ -112,8 +104,6 @@ def update(frame):
         surf[0].remove()
 
     # Top wave surface
->>>>>>> 1aa51f8 (testing)
->>>>>>> eaef276 (ah)
     surf[0] = ax.plot_surface(
         X, Y, Z,
         cmap=None,
@@ -129,14 +119,6 @@ def update(frame):
 
     return surf[0], time_text
 
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> 1aa51f8 (testing)
->>>>>>> eaef276 (ah)
 # Animate
 ani = animation.FuncAnimation(
     fig,
