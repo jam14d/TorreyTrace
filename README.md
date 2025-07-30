@@ -2,12 +2,12 @@ This project simulates coastal microclimate conditions near **Torrey Pines**, a 
 
 <p align="center">
   <img src="torreysineswnoise.gif" alt="Animation"><br>
-  <i>Early-stage visualization: Torrey Sines</i>
+  Early-stage visualization: Torrey Sines
 </p>
 
 <p align="center">
   <img src="wave_height_tsunami_advisory_july2025.png" alt="tsunami advisory plot"><br>
-  <i>Wave height observations at La Jolla during the week leading up to and including the tsunami advisory period (July 29–31, 2025). The top panel shows wave height over the past 7 days, while the bottom panel zooms in on the past 2 days. The shaded red region represents the tsunami advisory window, and red dots mark wave “spikes” (values > 2 σ above the mean). While the advisory was issued as a precaution after a large, distant earthquake in Russia (which had the potential to generate trans-Pacific tsunami waves), local observations show that wave heights remained at baseline levels (0.6–0.8 m) throughout the advisory period, with no anomalous surges or drawdowns typically associated with tsunami arrival.</i>
+  Wave height observations at La Jolla during the week leading up to and including the tsunami advisory period (July 29–31, 2025). The top panel shows wave height over the past 7 days, while the bottom panel zooms in on the past 2 days. The shaded red region represents the tsunami advisory window, and red dots mark wave “spikes” (values > 2 σ above the mean). While the advisory was issued as a precaution after a large, distant earthquake in Russia (which had the potential to generate trans-Pacific tsunami waves), local observations show that wave heights remained at baseline levels (0.6–0.8 m) throughout the advisory period, with no anomalous surges or drawdowns typically associated with tsunami arrival.
 </p>
 
 
